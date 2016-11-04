@@ -9,17 +9,17 @@ var Nav = React.createClass({
           <div className="top-bar-left">
             <ul className="menu">
               <li className="menu-text">
-                eSportz
+                <a href="/">eSportz</a>
               </li>
             </ul>
           </div>
           <div className="top-bar-right">
             <ul className="menu">
               <li>
-                <a href="http://google.com">Overwatch</a>
+                <Link to="/overwatch" activeClassName="active-link">Overwatch</Link>
               </li>
               <li>
-                <a href="http://google.com">League of Legends</a>
+                <Link to="/leagueoflegends" activeClassName="active-link">League of Legends</Link>
               </li>
             </ul>
           </div>
