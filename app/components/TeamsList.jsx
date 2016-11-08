@@ -15,7 +15,7 @@ var TeamsList = React.createClass({
     return (
       <div>
         <h5>This is the TeamsList component</h5>
-        <table>
+        <table className="hover">
           <thead>
             <tr>
               <th>Game</th>

@@ -19,6 +19,13 @@ var Overwatch = React.createClass({
           rank: 2,
           rating: 1355,
           region: "Europe"
+        }, {
+          id: 3,
+          game: 'overwatch',
+          name: 'rogue',
+          rank: 3,
+          rating: 1353,
+          region: "Europe"
         }
       ]
     };
