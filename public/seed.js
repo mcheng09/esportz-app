@@ -1,7 +1,8 @@
 // Teams
 
-var overwatchTeams = [{
+var teams = [{
   "id": 1,
+  "game": "overwatch",
   "name" : "EnVyUs",
   "rank" : 1,
   "rating" : 1421,
@@ -18,6 +19,7 @@ var overwatchTeams = [{
   ]
 },{
   "id": 2,
+  "game": "overwatch",
   "name" : "MisfitsGG",
   "rank" : 2,
   "rating" : 1355,
@@ -35,23 +37,27 @@ var overwatchTeams = [{
 }]
 
 // Players
-var overwatchPlayers = [{
+var players = [{
   "id": 1,
+  "game": "overwatch",
   "gamer_tag": "INTERNETHULK",
   "name": "Dennis Hawelka",
   "team" : "EnVyUs"
 },{
   "id": 2,
+  "game": "overwatch",
   "gamer_tag": "COCCO",
   "name": "Christian Jonsson",
   "team" : "EnVyUs"
 },{
   "id": 3,
+  "game": "overwatch",
   "gamer_tag": "Kryw",
   "name": "Johnathan Nobre",
   "team" : "MisfitsGG"
 },{
   "id": 4,
+  "game": "overwatch",
   "gamer_tag": "skipjack",
   "name": "Nicolas Rosada",
   "team" : "MisfitsGG"
